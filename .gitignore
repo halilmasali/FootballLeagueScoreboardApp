@@ -15,3 +15,4 @@
 local.properties
 /app/src/androidTest/java/com/example/superleague/ExampleInstrumentedTest.java
 /app/src/test/java/com/example/superleague/ExampleUnitTest.java
+/app/src/main/java/com/example/superleague/ApiKey.java
