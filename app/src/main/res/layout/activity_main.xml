@@ -14,11 +14,12 @@
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
-            style="@style/Widget.MaterialComponents.Toolbar.Surface"
+            style="@style/Widget.MaterialComponents.Toolbar.PrimarySurface"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:layout_scrollFlags="enterAlways"
-            app:title="Title"/>
+            app:layout_scrollFlags="scroll"
+            app:menu="@menu/appbar_menu"
+            app:title="Süper Lig"/>
 
 
     </com.google.android.material.appbar.AppBarLayout>
