@@ -26,8 +26,9 @@ public class LeagueDataAdapter extends RecyclerView.Adapter<LeagueDataAdapter.Vi
 
     @NonNull
     @Override
-    public LeagueDataAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_layout, parent, false);
+    public LeagueDataAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
+        View view = LayoutInflater.from(
+                parent.getContext()).inflate(R.layout.row_layout, parent, false);
         return new ViewHolder(view);
     }
 

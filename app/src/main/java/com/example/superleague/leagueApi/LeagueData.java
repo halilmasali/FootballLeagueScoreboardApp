@@ -1,4 +1,4 @@
-package com.example.superleague;
+package com.example.superleague.leagueApi;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package com.example.superleague;
+package com.example.superleague.leagueApi;
 
 import java.util.List;
 import retrofit2.Call;
